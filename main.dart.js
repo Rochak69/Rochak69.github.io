@@ -9405,7 +9405,7 @@ this.c=null},
 K3:function K3(a){this.a=a},
 a4c:function a4c(){},
 Kj:function Kj(a){this.a=a},
-a4T:function a4T(){},
+a4T:function a4T(a){this.a=a},
 a4S:function a4S(){},
 a4R:function a4R(){},
 P6:function P6(a){this.a=a},
@@ -47598,18 +47598,18 @@ $S:359}
 A.Kj.prototype={
 M(a){var s=A.a([B.CD,B.ce],t.p)
 $.avi()
-B.b.E(s,A.axM(5,new A.a4T(),t.l7))
+B.b.E(s,A.axM(5,new A.a4T(this),t.l7))
 return A.Ox(null,A.axK(s))}}
 A.a4T.prototype={
-$1(a){var s,r=null,q=$.avi()[a],p=A.bH(r,r,B.l,q.w,r,r,r,100,r,r,r,r,2),o=A.eF(q.a,r,r,r,r,r,r,r,A.ov().$1$fontWeight(B.aQ),r,r,r),n=A.cY(r,r,A.ov().$2$fontSize$fontWeight(13,B.a4),q.b+"\n"),m=q.r
-if(m==null)m=""
-m=A.at1(r,r,B.dm,r,r,!0,r,A.cY(A.a([n,A.cY(r,r,A.ov().$2$color$fontSize(B.ug,13),q.c+" - "+q.d+" | "+m)],t.VO),r,r,r),B.bv,r,r,B.aC,B.bw)
-n=A.a([],t.p)
+$1(a){var s,r=null,q=$.avi()[a],p=A.bH(r,r,B.l,q.w,r,r,r,100,r,r,r,r,2),o=A.eF(q.a,r,r,r,r,r,r,r,A.ov().$1$fontWeight(B.aQ),r,r,r),n=A.cY(r,r,A.ov().$2$fontSize$fontWeight(13,B.a4),q.b+"\n"),m=q.c+" - "+q.d,l=q.r
+if(l!=null)m=m+" |  "+l
+n=A.at1(r,r,B.dm,r,r,!0,r,A.cY(A.a([n,A.cY(r,r,A.ov().$2$color$fontSize(B.ug,13),m)],t.VO),r,r,r),B.bv,r,r,B.aC,B.bw)
+l=A.a([],t.p)
 s=q.e
-if(s!=null)n.push(A.eF(s,r,r,r,r,r,r,r,B.Xi,r,r,r))
+if(s!=null)l.push(A.eF(s,r,r,r,r,r,r,r,B.Xi,r,r,r))
 s=q.f
-B.b.E(n,new A.a8(s,new A.a4S(),A.a0(s).h("a8<1,k>")))
-return A.awZ(n,B.bK,B.co,p,new A.de(B.ne,m,r),B.iS,o)},
+B.b.E(l,new A.a8(s,new A.a4S(),A.a0(s).h("a8<1,k>")))
+return A.awZ(l,B.bK,B.co,p,new A.de(B.ne,n,r),B.iS,o)},
 $S:356}
 A.a4S.prototype={
 $1(a){var s=null,r=A.a7j(a.b,s,40,40),q=A.eF(a.a,s,s,s,s,s,s,s,B.Wy,s,s,s),p=A.a([],t.p),o=a.c
@@ -95765,8 +95765,8 @@ return A.a([A.xR(B.OW,B.KC,"assets/images/cloudRed.svg"),A.xR(B.az,B.KF,q),A.xR(
 r($,"aX9","wW",()=>{var q=null
 return A.a([A.iE("assets/images/profille.jpg",B.az.gvR(),q,q,q,q,B.Ap,"About me"),A.iE(q,B.az.gvR(),q,B.JV,q,q,B.Jc,"Experience"),A.iE(q,B.i,q,B.K0,q,q,B.Tj,"Skills"),A.iE(q,B.bS.gvR(),q,B.JY,q,q,B.J6,"Education"),A.iE("assets/icons/linkedin.png",B.i,q,q,u.d,q,q,"LinkedIn"),A.iE("assets/icons/github.png",B.i,q,q,"https://github.com/Rochak69",q,q,"Github"),A.iE("assets/icons/gmail.png",B.OV,q,q,q,new A.apS(),q,"Gmail"),A.iE("assets/icons/topMate.png",B.bS.gvR(),q,q,"https://topmate.io/rochak_shrestha/",q,q,"Topmate"),A.iE("assets/icons/calilio.png",B.i,"https://apps.apple.com/np/app/calilio/id6450351787",q,"https://play.google.com/store/apps/details?id=com.calilio&pcampaignid=web_share",q,q,"Calilio"),A.iE("assets/icons/baideshik.png",B.i,"https://apps.apple.com/np/app/baideshik-rojgar/id1565707258",q,"https://play.google.com/store/apps/details?id=com.sajhajobs.project",q,q,"Baideshik Rojgar"),A.iE("assets/icons/mume.png",B.i,q,q,"https://play.google.com/store/apps/details?id=com.mume&pli=1",q,q,"Mume"),A.iE("assets/icons/ecn.png",B.i,q,q,"https://play.google.com/store/apps/details?id=com.codewarelab.icm",q,q,"ECN")],A.a1("t<HY>"))})
 s($,"aXm","avf",()=>A.a([A.as3(B.jY,"","Tribhuwan University","","Computer Engineering"),A.as3(B.az,"","United Academy","","+2 Major in Science"),A.as3(B.az,"","United School","","School")],A.a1("t<K4>")))
-s($,"aXt","avi",()=>{var q=null,p="Jan 2023",o="3 months",n="Flutter Developer",m=t.s,l=A.a1("t<uy>")
-return A.a([A.Lh(B.az,"E-Signature",q,"Present","Agile methodology, JIRA",A.a([A.AG(A.a(["500K+ active users","Esewa and Khalti payment integrations","Implement Onesignal for Notification"],m),"A portal to view job vacancies, news for abroad countries and apply for job.","assets/icons/baideshik.png","Baideshik Rojgar")],l),"Oct-26-2023","Senior Mobile Application Developer"),A.Lh(B.OU,"Varosa Technology","10 months","Nov 2023","Managed and led the mobile team of 5\nAgile methodology, JIRA",A.a([A.AG(A.a(["Establish voice calling functionality using Twilio SDK from app to number and vice-versa.","Real time chat feature.","Modified Twilio Plugin","Implemented third patry UI (flutter_incomming_callkit)","Created an audio device management plugin.","GraphQl, Clean Architecture, BLOC","Dependency injection with GetIt","Local storage with HIVE."],m),"Virtual phone system for sales and business communication.\n100+ countries, call, send message directly on the phone number.","assets/icons/calilio.png","Calilio"),A.AG(A.a(["GraphQl. ","Clean Architecture with Bloc, dependency injection using GetIt.","Biometrics Authentication,","QR scan."],m),"A wallet app for Qatar","assets/icons/mume.png","Mume Wallet")],l),p,"Mobile Team Lead"),A.Lh(B.OT,"Codeware Lab",o,p,q,A.a([A.AG(A.a(["Rest Api","GetX","Localization"],m),"An app for Election Commission Nepal to help monitor the recently conducted election.\nUsed by 5000+ officers.","assets/icons/ecn.png","ECN Monitoring App")],l),"June 2022",n),A.Lh(B.ue,"25 Hours",o,"Oct 2021","MVVM, Provider, Rest API",A.a([A.AG(A.a([],m),q,"assets/icons/fish-producer.jpg","Fish Producer"),A.AG(A.a([],m),q,"assets/icons/fish-buyer.png","Fish Buyer")],l),"Sep 2021",n),A.Lh(B.ue,"Reduct Nepal",o,"Present (Contract)","Proofread HIPAA compliant transcriptions of English audios.\n\nReview quality of transcripts.",A.a([],l),"June 2021","Transcriptionist/Reviewer")],A.a1("t<Lg>"))})
+s($,"aXt","avi",()=>{var q=null,p="Jan 2023",o="Flutter Developer",n="June 2022",m=t.s,l=A.a1("t<uy>")
+return A.a([A.Lh(B.az,"E-Signature",q,"Present","Agile methodology, JIRA",A.a([A.AG(A.a(["500K+ active users","Esewa and Khalti payment integrations","Implement Onesignal for Notification"],m),"A portal to view job vacancies, news for abroad countries and apply for job.","assets/icons/baideshik.png","Baideshik Rojgar")],l),"Oct-26-2023","Senior Mobile Application Developer"),A.Lh(B.OU,"Varosa Technology","10 months","Nov 2023","Managed and led the mobile team of 5\nAgile methodology, JIRA",A.a([A.AG(A.a(["Establish voice calling functionality using Twilio SDK from app to number and vice-versa.","Real time chat feature.","Modified Twilio Plugin","Implemented third patry UI (flutter_incomming_callkit)","Created an audio device management plugin.","GraphQl, Clean Architecture, BLOC","Dependency injection with GetIt","Local storage with HIVE."],m),"Virtual phone system for sales and business communication.\n100+ countries, call, send message directly on the phone number.","assets/icons/calilio.png","Calilio"),A.AG(A.a(["GraphQl. ","Clean Architecture with Bloc, dependency injection using GetIt.","Biometrics Authentication,","QR scan."],m),"A wallet app for Qatar","assets/icons/mume.png","Mume Wallet")],l),p,"Mobile Team Lead"),A.Lh(B.OT,"Codeware Lab","7 months",p,q,A.a([A.AG(A.a(["Rest Api","GetX","Localization"],m),"An app for Election Commission Nepal to help monitor the recently conducted election.\nUsed by 5000+ officers.","assets/icons/ecn.png","ECN Monitoring App")],l),n,o),A.Lh(B.ue,"25 Hours","1 year",n,"MVVM, Provider, Rest API",A.a([A.AG(A.a([],m),q,"assets/icons/fish-producer.jpg","Fish Producer"),A.AG(A.a([],m),q,"assets/icons/fish-buyer.png","Fish Buyer")],l),"July 2021",o),A.Lh(B.ue,"Reduct Nepal","3 years","Present (Contract)","Proofread HIPAA compliant transcriptions of English audios.\n\nReview quality of transcripts.",A.a([],l),"June 2021","Transcriptionist/Reviewer")],A.a1("t<Lg>"))})
 r($,"aXM","avp",()=>{var q=null
 return A.a([A.dx(B.az,"assets/icons/flutter.svg","Flutter"),A.dx(B.az,"assets/icons/dart.svg","Dart"),A.dx(B.az,"assets/icons/nodejs.svg","Node JS"),A.dx(B.d5,q,"BLOC"),A.dx(B.d5,q,"GetX"),A.dx(B.d5,q,"Provider"),A.dx(B.d5,q,"Riverpod"),A.dx(B.bS,"assets/icons/firebase.svg","Firebase"),A.dx(B.bS,q,"Hive"),A.dx(B.bS,"assets/icons/mongodb.svg","MongoDB"),A.dx(B.bS,"assets/icons/postgresql.svg","Postgresql"),A.dx(B.jY,"assets/icons/ci-cd.svg","CI/CD"),A.dx(B.jY,q,"Codemagic"),A.dx(B.jX,q,"REST API"),A.dx(B.jX,"assets/icons/graphql.svg","GraphQl"),A.dx(B.jX,q,"Socket"),A.dx(B.jW,q,"OneSignal"),A.dx(B.jW,q,"Rollbar"),A.dx(B.jW,q,"Animations"),A.dx(B.d5,q,"Dependency Injection")],A.a1("t<Cb>"))})
 r($,"aXz","arh",()=>A.a([A.dx(B.OZ,null,"English"),A.dx(B.d5,null,"Nepali"),A.dx(B.m,null,"Hindi")],A.a1("t<Cb>")))
